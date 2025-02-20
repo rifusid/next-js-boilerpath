@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Base Project
 
-## Getting Started
+## 🇮🇩 Bahasa Indonesia
 
-First, run the development server:
+### Struktur Dasar Folder
+
+- `/app` - Direktori utama aplikasi Next.js
+  - `/components` - Komponen yang dapat digunakan kembali
+  - `/theme` - Konfigurasi tema dan warna
+- `/.storybook` - Konfigurasi Storybook
+- `/public` - Asset statis (gambar, font, dll)
+
+
+### Teknologi yang Digunakan
+
+- **Next.js** - Framework React untuk production
+- **TypeScript** - Superset JavaScript dengan static typing
+- **Tailwind CSS** - Framework CSS utility-first
+- **Storybook** - Tool untuk dokumentasi dan testing UI components
+- **pnpm** - Package manager yang lebih cepat dan efisien
+- **ESLint** - Linter untuk menjaga kualitas kode
+- **Prettier** - Code formatter
+- **Jest** - Framework testing JavaScript
+- **React Testing Library** - Library untuk testing React components
+
+
+### Instalasi dan Penggunaan
+
+1. Install pnpm (jika belum terinstall):
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install -g pnpm
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Jalankan development server:
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Menjalankan Storybook:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm storybook
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🇬🇧 English
 
-## Deploy on Vercel
+### Basic Folder Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `/app` - Main Next.js application directory
+  - `/components` - Reusable components
+  - `/theme` - Theme and color configurations
+- `/.storybook` - Storybook configuration
+- `/public` - Static assets (images, fonts, etc)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+### Technologies Used
+
+- **Next.js** - React framework for production
+- **TypeScript** - JavaScript superset with static typing
+- **Tailwind CSS** - Utility-first CSS framework
+- **Storybook** - UI component documentation and testing tool
+- **pnpm** - Fast, disk space efficient package manager
+- **ESLint** - JavaScript linter
+- **Prettier** - Code formatter
+- **Jest** - JavaScript testing framework
+- **React Testing Library** - React component testing library
+
+
+### Installation and Usage
+
+1. Install pnpm (if not installed):
+
+```bash
+npm install -g pnpm
+```
+
+2. Install dependencies:
+
+```bash
+pnpm install
+```
+
+3. Run the development server:
+
+```bash
+pnpm dev
+```
+
+4. Run Storybook:
+
+```bash
+pnpm storybook
+```
+
